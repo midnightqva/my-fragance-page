@@ -1,14 +1,15 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-html{
+
+html {
     font-size: 62.5%;
 }
 
 
-.backgroundImg{
+.backgroundImg {
     width: 100%;
     height: 90%;
     position: absolute;
@@ -18,29 +19,32 @@ html{
     background-position: center;
     filter: blur(8px);
 }
-main{
+
+main {
     position: relative;
 }
 
 
-.main-nav{
+.main-nav {
     width: 100%;
     height: 35px;
     background-color: rgb(149, 245, 223);
     text-align: end;
 }
-.main-nav ul li{
+
+.main-nav ul li {
     display: inline-block;
     font-size: 3rem;
     font-weight: bold;
     margin-right: 20px;
 }
 
-.info{
+.info {
     width: 80%;
     margin: 0 auto;
 }
-#welcome-title{
+
+#welcome-title {
     width: 535px;
     height: 150px;
     margin: 0 auto;
@@ -50,23 +54,26 @@ main{
     padding-top: 40px;
     font-size: 5rem;
 }
-.text{
+
+.text {
     font-size: 2rem;
     font-weight: 500;
 }
 
-.options{
+.options {
     width: 100%;
     height: 150px;
     text-align: center;
     margin-top: 80px;
 }
-.options h3{
+
+.options h3 {
     font-size: 2.5rem;
     font-weight: bold;
     margin-bottom: 60px;
 }
-.options ul li{
+
+.options ul li {
     display: inline-block;
     width: 150px;
     height: 60px;
@@ -76,41 +83,78 @@ main{
     font-size: 2rem;
     font-weight: 500;
 }
- #of{
+
+#of {
     margin-right: 200px;
 }
-#pH{
+
+#pH {
     margin-right: 200px;
 }
-#pM{
+
+#pM {
     padding-right: 5px;
 }
-.ofertas{
+
+.ofertas {
     cursor: pointer;
 }
-                            
 
 
- 
-.perfMan-menu{
+
+.perfMan-menu {
     position: absolute;
-    top: 45px;
-    left: 350px;
-    width: 50%;
-    height: 700px;
+    top: 100px;
+    left: 500px;
+    width: 400px;
     margin: 0 auto;
-    background-color: rgb(149, 245, 223);
- }
- .perfMan{
-    font-size: 1.5rem;
- }
- #perf-man-1, #perf-man-2, #perf-man-3, #perf-man-4{
-    margin-bottom: 50px;
- }
+}
+
+.product {
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: left;
+    background-color: #92dfe9;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+#img1 {
+    width: 150px;
+    height: 150px;
+}
+
+#img2 {
+    width: 150px;
+    height: 150px;
+}
+
+#img3 {
+    width: 150px;
+    height: 150px;
+}
+
+.product p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    text-decoration: none;
+    background-color: #007BFF;
+    color: #fff;
+    border-radius: 5px;
+}
 
 
-                             /* Ocultar alguna parte */
-.inactive{
+.inactive {
     display: none;
 }
-                            /* Ocultar alguna parte */
