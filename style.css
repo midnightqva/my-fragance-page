@@ -89,7 +89,27 @@ main{
     cursor: pointer;
 }
                             
-                            /* Ocultar alguna parte */
+
+
+ 
+.perfMan-menu{
+    position: absolute;
+    top: 45px;
+    left: 350px;
+    width: 50%;
+    height: 700px;
+    margin: 0 auto;
+    background-color: rgb(149, 245, 223);
+ }
+ .perfMan{
+    font-size: 1.5rem;
+ }
+ #perf-man-1, #perf-man-2, #perf-man-3, #perf-man-4{
+    margin-bottom: 50px;
+ }
+
+
+                             /* Ocultar alguna parte */
 .inactive{
     display: none;
 }
