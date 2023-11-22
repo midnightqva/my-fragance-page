@@ -102,13 +102,14 @@ main {
 
 
 
-.perfMan-menu {
+.perfMan-menu, .perfWoman-menu {
     position: absolute;
     top: 100px;
     left: 500px;
     width: 400px;
     margin: 0 auto;
 }
+
 
 .product {
     margin-bottom: 30px;
@@ -118,7 +119,15 @@ main {
     background-color: #92dfe9;
 }
 
-.product img {
+.productWoman{
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: left;
+    background-color: rgb(238, 159, 231);
+}
+
+.product img, .productWoman img {
     max-width: 100%;
     height: auto;
     margin-bottom: 10px;
@@ -139,7 +148,7 @@ main {
     height: 150px;
 }
 
-.product p {
+.product p, .productWoman p {
     font-size: 1.2em;
     margin-bottom: 10px;
 }
