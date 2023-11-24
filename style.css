@@ -119,12 +119,26 @@ main {
     background-color: #92dfe9;
 }
 
+.product span{
+    position: relative;
+    font-size: 1.5rem;
+    left: 275px;
+    cursor: pointer;
+}
+
 .productWoman{
     margin-bottom: 30px;
     border: 1px solid #ccc;
     padding: 20px;
     text-align: left;
     background-color: rgb(238, 159, 231);
+}
+
+.productWoman span{
+    position: relative;
+    font-size: 1.5rem;
+    left: 275px;
+    cursor: pointer;
 }
 
 .product img, .productWoman img {
